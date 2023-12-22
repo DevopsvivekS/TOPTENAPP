@@ -1,0 +1,17 @@
+<section>
+	<h1>TOP 10 3STAR HOTELS</h1>
+	<article ng-repeat="x in top5hotels">
+		<div>{{x.rank}}</div>
+		<img src="{{x.image}}" alt="{{x.imageName}}">
+		<h4>{{x.name}}</h4>	 
+	</article>
+</section>
+<section>
+	<h1>TOP 10 5STAR HOTELS</h1>
+	<article ng-repeat="x in top3hotels">
+		<div>{{x.rank}}</div>
+		<img src="{{x.image}}" alt="{{x.imageName}}">
+		<h4>{{x.name}}</h4>	 
+	</article>
+</section>
+
